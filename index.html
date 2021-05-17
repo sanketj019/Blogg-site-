@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Navigation in pure HTML and CSS</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="left-nav">
+            <a>iBlog</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/search.html">Search</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <div class="content max-width-1 m-auto">
+        <div class="content-left">
+            <h1>The Haven for bloggers</h1><br>
+            <p>iBlog is a website which lets you submit an article which upon approal will be up on our website and you
+                can get good reach from here.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id distinctio, porro necessitatibus
+                consectetur dolores quibusdam vitae dolorum aspernatur. Accusamus autem iusto unde doloremque sequi nam
+                perferendis consequatur vitae ex.</p>
+        </div>
+        <div class="content-right">
+            <img src="img/home.svg" alt="bloggers">
+        </div>
+        
+    </div>
+    <div class="max-width-1 m-auto">
+        <br>
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 font2">
+        <h2>Search Results</h2>
+        <div class="home-article">
+           <div class="home-article-img">
+            <img src="img/11.svg" alt="article">
+           </div>
+           <div class="home-article-content">
+               <a href=""><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+               <span>Authur Name </span>
+               <span>07 January (06 min read)</span>
+           </div> 
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+             <img src="img/11.svg" alt="article">
+            </div>
+            <div class="home-article-content">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                <span>Authur Name </span>
+                <span>07 January (06 min read)</span>
+            </div> 
+         </div>
+         <div class="home-article">
+            <div class="home-article-img">
+             <img src="img/2.png" alt="article">
+            </div>
+            <div class="home-article-content">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                <span>Authur Name </span>
+                <span>07 January (06 min read)</span>
+            </div> 
+         </div>
+    </div>
+    <div class="footer m-auto">
+      <span>Copyright &copy; <b>iBlog.com</b></span> 
+    </div>
+    
+
+</body>
+
+</html>
